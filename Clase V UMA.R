@@ -74,7 +74,7 @@ graficaFrecuencias=function(temblores,magnitud){
 
 graficaFrecuencias(temblores,6.0)
 
-magnitudes=seq(0,9,by=1)
+magnitudes=seq(0,8,by=1)
 
 for (i in magnitudes){
   print(graficaFrecuencias(temblores,i))
